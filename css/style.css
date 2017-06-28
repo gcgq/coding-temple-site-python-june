@@ -6,21 +6,17 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header li a:hover {
-  box-shadow: inset 0 3px 0 0 #45a2da;
-  color: #45a2da;
+footer li {
+  display: inline-block;
 }
 
 header li {
   display: inline-block;
 }
 
-footer li {
-  display: inline-block;
-}
-
-header li a {
-  color: black;
+header li a:hover {
+  box-shadow: inset 0 3px 0 0 #45a2da;
+  color: #45a2da;
 }
 
 h1, h2, h3, h4 {

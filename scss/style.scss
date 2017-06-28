@@ -16,21 +16,31 @@ body  {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header li a:hover{
-  box-shadow: inset 0 3px 0 0 $ct_blue;
-  color: $ct_blue;
-}
-
-header li{
-  display: inline-block;
-}
+// header li a:hover{
+//   box-shadow: inset 0 3px 0 0 $ct_blue;
+//   color: $ct_blue;
+// }
+//
+// header li{
+//   display: inline-block;
+// }
+//
+// header li a{
+//   color: black;
+// }
 
 footer li{
   display: inline-block;
 }
 
-header li a{
-  color: black;
+header{
+  li{
+    display: inline-block;
+    a:hover{
+      box-shadow: inset 0 3px 0 0 $ct_blue;
+      color: $ct_blue;
+    }
+  }
 }
 
 h1, h2, h3, h4 {
@@ -76,13 +86,17 @@ article p {
 a {
   text-decoration: none;
 }
+
 .alt-link {
   background-color: black;
+  a{
+    color: white;
+  }
 }
 
-.alt-link a{
-  color: white;
-}
+// .alt-link a{
+//   color: white;
+// }
 
 nav{
   float:right;
