@@ -84,6 +84,9 @@ a {
   color: white;
 }
 
+nav{
+  float:right;
+}
 // .col-1-2 {
 //   float: left;
 //   padding-left: 10px;
@@ -104,9 +107,9 @@ a {
 //   padding-right: 10px;
 //   width: 33.3%;
 // }
-
-.clearfix:after{
-  content: "";
-  display: table;
-  clear: both;
-}
+// 
+// .clearfix:after{
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
